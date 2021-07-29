@@ -52,10 +52,10 @@ while True:
         if(x==prefix):
             notExist = False
             camera.start_preview()
-            time.sleep(1)
+            #time.sleep(1)
             camera.capture(image_file)
             camera.stop_preview()
-            time.sleep(1)
+            #time.sleep(1)
             fields = {
                 'barcode': num1,
                 'scanner_id': scannerID,
