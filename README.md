@@ -1,5 +1,5 @@
 # barcode
- Reads array of barcodes, take a picture of them, and upload in database.
+ Reads array of barcodes, take a picture of them, and upload in AWS S3 database via REST API.
 
 
 #### Run the script in command line ###
