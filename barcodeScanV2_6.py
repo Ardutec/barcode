@@ -99,8 +99,8 @@ while True:
     pygame.display.update()
 
 
-    #num1 = sys.stdin.readline().strip() ### This parameter will limit the multiple inctence read to one
-    num1 = "H0RS107"
+    num1 = sys.stdin.readline().strip() ### This parameter will limit the multiple inctence read to one
+#    num1 = "H0RS107"
 #     print(num1)
 #     print(len(num1))
     now = int(round(time.time() * 1000))
@@ -143,7 +143,7 @@ while True:
                 screen.blit(guigreen, (0,0))
                 message_display("Not updated, some network issue", (display_width/2.1), (display_height/2), white)
                 pygame.display.update()
-    time.sleep(5)
+        #time.sleep(5)
     if(notExist):
         logging.info("%s barcode is not in prefix list", num1)
         print("Barcode is not in prefix list")
